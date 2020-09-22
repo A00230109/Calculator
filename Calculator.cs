@@ -34,7 +34,8 @@ namespace ConsoleCalculator
                 } while (isNumber == false);
                 
                 String operation = "";
-                // We loop until the user enter a valid operator
+                // We loop until the user enters a valid operator
+                // Anything except "+" or "-" or "*" or "/" or "%" is not accepted
                 do
                 {
                     Console.WriteLine("Enter A Valid Operator: ");
